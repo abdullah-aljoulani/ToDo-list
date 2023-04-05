@@ -1,0 +1,138 @@
+body{
+    position: relative;
+}
+
+header {
+    background-color: gray;
+    position: relative;
+}
+
+header img{
+    width: 50px;
+    height: 50px;
+}
+nav{
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 50%;
+}
+
+nav a{
+    padding-left:50px ;
+    text-decoration: none;
+    color: black;
+}
+
+main h1{
+    font-size: 50px;
+    margin: 50px;
+    padding-left: 300px;
+}
+
+table{
+    border-color: black;
+    border: solid;
+    width: 500px;
+    position: absolute;
+    left: 300px;
+}
+
+th{
+    padding-right: 70px;
+    border: 1px solid black;
+}
+
+td{
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.sta-g{
+    background-color: green;
+    width: 82px;
+    height: 6px;
+}
+
+.sta-r{
+    background-color: red;
+    width: 82px;
+    height: 6px;
+}
+
+footer{
+    margin-top: 350px;
+    margin-left: 550px;
+}
+
+.h-2{
+    background-color: red;
+}
+
+
+.pr-img{
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.perent{
+    display: inline-block;
+    position: absolute;
+    top: 100px;
+    left: 300px;
+}
+
+.my-self{
+    margin-left: 100px;
+    color: red;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.continer{
+    border: 1px solid black;
+    width: 500px;
+}
+
+.cont{
+    font-size: 20px;
+    color: #9d2929;
+    margin-left: 500px;
+    margin-top: 40px;
+}
+
+#father{
+    margin-left: 150px;
+}
+
+.box input{
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+.big{
+    height: 100px;
+}
+
+.btn{
+    margin-top: 2%;
+    margin-left: 40%;
+}
+
+.btn button{
+    padding: 5px;
+    background-color: rebeccapurple;
+    color: black;
+    font-size: 25px;
+}
+
+.f-div{
+    background-color: gray;
+}
+
+.f-about{
+    margin-top: 20px;
+    margin-left: 50%;
+}
