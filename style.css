@@ -1,10 +1,14 @@
 body{
     position: relative;
+    background-color: aliceblue;
 }
 
 header {
-    background-color: gray;
-    position: relative;
+    background-color: rgb(150, 141, 141);
+    /* position: relative; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header img{
@@ -12,11 +16,11 @@ header img{
     height: 50px;
 }
 nav{
-    display: inline-block;
-    position: absolute;
-    top: 20px;
-    right: 50%;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 10%;
 }
+
 
 nav a{
     padding-left:50px ;
@@ -27,7 +31,8 @@ nav a{
 main h1{
     font-size: 50px;
     margin: 50px;
-    padding-left: 300px;
+    display: flex;
+    justify-content: center;
 }
 
 table{
@@ -35,7 +40,7 @@ table{
     border: solid;
     width: 500px;
     position: absolute;
-    left: 300px;
+    left: 30%;
 }
 
 th{
